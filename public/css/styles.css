@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bannerHome{
+    background-image: url("../img/negociacao.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -58px;
+}
+
+#logo{
+    width: 253px;
+    height: 122px;
+}
+
+
+#capaBanner{
+    background: rgba(14, 14, 14, 0.61) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+
+#capaBanner h2{
+    font-size: 2.5rem;
+}
+
+
+body{
+    font-family: "cocogoose2";
+}
+
+@font-face{
+
+    font-family: "cocogoose";
+    src: url('/fonts/Cocogoose_trial.otf');
+
+}
+
+@font-face{
+
+    font-family: "cocogoose2";
+    src: url('/fonts/Cocogoose Pro Thin-trial.ttf');
+
+}
+
+
+.buttonHome{
+    width: 176px;
+    height: 46px;
+    font-weight: bold;
+    background-color: #dc354500;
+    margin-top: 56px;
+    border: 2.5px solid #d11919;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+
+.homeTwo{
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 30px 0px 0 0;
+    width: 70%;
+    
+}
+
+.homeTwo h3{
+    color: #d11919;
+    
+}
+
+.divIconsHome{
+    width: 100%;
+    height: 400px;
+}
+
+.iconsHome{
+    /* height: 57px; */
+    width: 61px;
+    /* flex-direction: row; */
+    display: flex;
+}
+
+
+.individualIconsHome{
+    display: inline-flex;
+}
