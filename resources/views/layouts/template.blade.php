@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="container navbar navbar-light bg-light">
+        <nav class="container navbar navbar-light">
             <a class="navbar-brand"><img id="logo" src="/img/logo.png" alt=""></a>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Digite um produto..." aria-label="Encontre">
